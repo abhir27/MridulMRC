@@ -1,0 +1,1000 @@
+ 1013  jps
+ 1014  sudo add-apt-repository ppa:umang/indicator-stickynotes
+ 1015  sudo apt-get update
+ 1016  sudo vim /etc/hosts
+ 1017  su hduser
+ 1018  sudo vim /etc/hosts
+ 1019  su hduser
+ 1020  sudo vim /etc/hosts
+ 1021  ssh hduser@slave
+ 1022  youtube-dl https://www.youtube.com/watch?v=dipe292gRgM
+ 1023  cd /home/ruchi/Desktop/Resume
+ 1024  clear
+ 1025  su hduser
+ 1026  java -jar ResumeGenerator.jar "Ruchi Jaiswal" 143050051 "Computer Science and Engineering" "M.Tech." "IIT Bombay" "Female" "Computer Science and Engineering" "October 27,1991" "Post Graduation;IIT Bombay;IIT Bombay;2016;6.78" "Graduation;RGPV Bhopal;SGSITS Indore;2014;8.16" "Intermediate/+2;MPBSE Bhopal;Govt. Excellence School,Betul;2009;89.6" "Matriculation;MPBSE Bhopal; Govt. Excellence School,Betul;2007;86"
+ 1027  cd /home/ruchi/Desktop/Resume
+ 1028  clear
+ 1029  cd /home/ruchi/Desktop
+ 1030  clear
+ 1031  cd /home/ruchi/Desktop/Resume
+ 1032  clear
+ 1033  cd /home/ruchi/Desktop
+ 1034  clear
+ 1035  cd /media/ruchi/BAE0C5D2E0C59553/M.Tech/Placement/Manjunath
+ 1036  clear
+ 1037  cd /home/ruchi/Desktop
+ 1038  clear
+ 1039  cd /home/ruchi/Desktop/Resume
+ 1040  clear
+ 1041  sudo vim /etc/hosts
+ 1042  ssh hduser@slave
+ 1043  javac Parenthesis.java 
+ 1044  java Parenthesis 
+ 1045  java Parenthesis input/a.txt
+ 1046  javac Parenthesis.java 
+ 1047  java Parenthesis input/a.txt
+ 1048  java Parenthesis input/b.txt
+ 1049  javac Parenthesis.java 
+ 1050  java Parenthesis input/b.txt
+ 1051  javac Parenthesis.java 
+ 1052  java Parenthesis input/b.txt
+ 1053  javac Parenthesis.java 
+ 1054  java Parenthesis input/b.txt
+ 1055  javac Parenthesis.java 
+ 1056  java Parenthesis input/b.txt
+ 1057  java Parenthesis input/a.txt
+ 1058  java Parenthesis input/b.txt
+ 1059  javac Parenthesis.java 
+ 1060  java Parenthesis input/b.txt
+ 1061  javac Parenthesis.java 
+ 1062  java Parenthesis input/b.txt
+ 1063  javac Parenthesis.java 
+ 1064  java Parenthesis input/b.txt
+ 1065  javac Parenthesis.java 
+ 1066  java Parenthesis input/b.txt
+ 1067  javac Parenthesis.java 
+ 1068  java Parenthesis input/b.txt
+ 1069  javac Parenthesis.java 
+ 1070  java Parenthesis input/b.txt
+ 1071  javac Parenthesis.java 
+ 1072  java Parenthesis input/b.txt
+ 1073  javac Parenthesis.java 
+ 1074  java Parenthesis input/b.txt
+ 1075  javac Parenthesis.java 
+ 1076  java Parenthesis input/b.txt
+ 1077  javac Parenthesis.java 
+ 1078  java Parenthesis input/b.txt
+ 1079  sudo cp -r /home/hduser/hadoop/* /home/hduser/old
+ 1080  sudo cp -r /home/hduser/hadoop /home/hduser/old
+ 1081  sudo cp -r /home/hduser/local/hadoop /home/hduser/old
+ 1082  sudo cp -r /usr/local/hadoop /usr/local/old_hadoop
+ 1083  su hduser
+ 1084  ifconfig
+ 1085  sudo vim /etc/hosts
+ 1086  ssh hduser@slave
+ 1087  youtube-dl https://www.youtube.com/watch?v=zhHjYmrUDIw
+ 1088  cd '/home/ruchi/Desktop/my resume'
+ 1089  clear
+ 1090  cd /home/ruchi
+ 1091  clear
+ 1092  cd '/home/ruchi/Desktop/my resume'
+ 1093  clear
+ 1094  sudo vim /etc/hosts
+ 1095  su hduser
+ 1096  cd '/home/ruchi/Desktop/my resume'
+ 1097  clear
+ 1098  sudo vim /etc/hosts
+ 1099  cd workspace/Parenthesis/
+ 1100  git init
+ 1101  git add *
+ 1102  git commit -"First"
+ 1103  git commit "First"
+ 1104  git commit
+ 1105  cd workspace/Parenthesis/
+ 1106  git add *
+ 1107  git commit -Second
+ 1108  git commit
+ 1109  su hduser
+ 1110  sudo vim /etc/hosts
+ 1111  ssh hduser@slave
+ 1112  sudo vim /etc/hosts
+ 1113  cd workspace/Parenthesis/
+ 1114  git add *
+ 1115  git commit "2nd map not taken"
+ 1116  git commit -"2nd map not taken"
+ 1117  git commit
+ 1118  su hduser
+ 1119  sudo vim /etc/hosts
+ 1120  su hduser
+ 1121  ssh hduser@slave
+ 1122  sudo vim /etc/hosts
+ 1123  ssh hduser@slave
+ 1124  su hduser
+ 1125  sudo cp -r /usr/local/hadoop-2.7.0.tar.gz /home/ruchi
+ 1126  sudo chmod 777 -r /home/ruchi/hadoop-2.7.0.tar.gz 
+ 1127  sudo chmod 777 /home/ruchi/hadoop-2.7.0.tar.gz 
+ 1128  ssh ruchi@10.129.28.88
+ 1129  ssh 10.129.28.88
+ 1130  sudo ssh 10.129.28.88
+ 1131  ping 10.129.28.88
+ 1132  sudo lshw -class memory
+ 1133  cd '/home/ruchi/Desktop/my resume'
+ 1134  clear
+ 1135  cd '/home/ruchi/Desktop/my resume'
+ 1136  clear
+ 1137  version
+ 1138  ubuntu -version
+ 1139  lsb_release -a
+ 1140  java -jar ResumeGenerator.jar "Ruchi Jaiswal" 143050051 "Computer Science and Engineering" "M.Tech." "IIT Bombay" "Female" "Computer Science and Engineering" "October 27,1991" "Post Graduation;IIT Bombay;IIT Bombay;2016;6.78" "Graduation;RGPV Bhopal;SGSITS Indore;2014;8.16" "Intermediate/+2;MPBSE Bhopal;Govt. Mult H S School,Betul ;2009;89.6" "Matriculation;MPBSE Bhopal;Govt. Mult H S School,Betul  ,Betul;2007;86"
+ 1141  cd '/home/ruchi/Desktop/my resume'
+ 1142  clear
+ 1143  java -jar ResumeGenerator.jar "Ruchi Jaiswal" 143050051 "Computer Science and Engineering" "M.Tech." "IIT Bombay" "Female" "Computer Science and Engineering" "October 27,1991" "Post Graduation;IIT Bombay;IIT Bombay;2016;6.78" "Graduation;RGPV Bhopal;SGSITS Indore;2014;8.16" "Intermediate/+2;MPBSE Bhopal;Govt. Mult H S School,Betul ;2009;89.6" "Matriculation;MPBSE Bhopal;Govt. Mult H S School,Betul;2007;86"
+ 1144  cd '/home/ruchi/Desktop/my resume'
+ 1145  clear
+ 1146  cd '/home/ruchi/Desktop/my resume'
+ 1147  clear
+ 1148  java -jar ResumeGenerator.jar "Ruchi Jaiswal" 143050051 "Computer Science and Engineering" "M.Tech." "IIT Bombay" "Female" "Computer Science and Engineering" "October 27,1991" "Post Graduation;IIT Bombay;IIT Bombay;2016;6.78" "Graduation;RGPV Bhopal;SGSITS Indore;2014;8.16" "Intermediate/+2;MPBSE Bhopal;Govt. Mult H S School,Betul ;2009;89.6" "Matriculation;MPBSE Bhopal;Govt. Mult H S School,Betul;2007;86"
+ 1149  history
+ 1150  su hdsuer
+ 1151  su hdser
+ 1152  su hduser
+ 1153  sudo vim /etc/hosts
+ 1154  ifconfig
+ 1155  ssh hduser@ruchi-pc
+ 1156  sudo ssh-copy-id -i  ~/.ssh/id_rsa.pub hduser@ruchi-pc
+ 1157  ssh hduser@ruchi-pc
+ 1158  sudo mv -r /usr/local/hadoop/* /usr/local/hadoop_lab
+ 1159  sudo mv /usr/local/hadoop/* /usr/local/hadoop_lab
+ 1160  sudo mkdir /usr/local/hadoop_lab
+ 1161  sudo mv /usr/local/hadoop/* /usr/local/hadoop_lab
+ 1162  sudo cp /usr/local/old_hadoop/* /usr/local/hadoop
+ 1163  sudo cp -r /usr/local/old_hadoop/* /usr/local/hadoop
+ 1164  su hduser
+ 1165  cd Downloads/attachments/
+ 1166  javac SplitFile.java 
+ 1167  java SplitFile large.txt 
+ 1168  javac SplitFile.java 
+ 1169  java SplitFile large.txt 
+ 1170  sudo rm -r /home/hduser/ox*
+ 1171  javac stackops.java 
+ 1172  java stackops
+ 1173  javac stackops.java 
+ 1174  java stackops
+ 1175  javac stackops.java 
+ 1176  java stackops
+ 1177  javac stackops.java 
+ 1178  java stackops
+ 1179  javac stackops.java 
+ 1180  java stackops
+ 1181  javac stackops.java 
+ 1182  java stackops
+ 1183  javac stackops.java 
+ 1184  java stackops
+ 1185  sudo rm -r /home/hduser/ox*
+ 1186  javac rev.java 
+ 1187  java rev
+ 1188  javac rev.java 
+ 1189  java rev
+ 1190  javac rev.java 
+ 1191  java rev
+ 1192  sudo rm -r /home/hduser/ox*
+ 1193  cd workspace/Balanced/
+ 1194  git init
+ 1195  git add *
+ 1196  git commit -"working Run"
+ 1197  git commit
+ 1198  su hduser
+ 1199  youtube-dl https://www.youtube.com/watch?v=wMxTEE7rBvA
+ 1200  youtube-dl https://www.youtube.com/watch?v=kf3cQHbPA24
+ 1201  youtube-dl https://www.youtube.com/watch?v=pmsczhC8j2o
+ 1202  youtube-dl https://www.youtube.com/watch?v=-jf6pwtPqCs
+ 1203  youtube-dl https://www.youtube.com/watch?v=jDn2bn7_YSM
+ 1204  dirk
+ 1205  youtube-dl https://www.youtube.com/watch?v=Z4Buqbpy-Sk
+ 1206  cd '/home/ruchi/Desktop/my resume'
+ 1207  clear
+ 1208  cd '/home/ruchi/Desktop/my resume'
+ 1209  clear
+ 1210  cd /media/ruchi/BAE0C5D2E0C59553/M.Tech/mtech2/seminar
+ 1211  clear
+ 1212  cd '/home/ruchi/Desktop/my resume'
+ 1213  clear
+ 1214  cd '/media/ruchi/BAE0C5D2E0C59553/M.Tech/mtech2/seminar/sample reports/myreport'
+ 1215  clear
+ 1216  su hduser
+ 1217  youtube-dl https://www.youtube.com/watch?v=v0KKkrJwhJg
+ 1218  sudo /etc/hosts
+ 1219  sudo  vim /etc/hosts
+ 1220  su hduser
+ 1221  ifconfig
+ 1222  sudo rm -r /home/hduser/my*
+ 1223  sudo rm -r /home/hduser/ox*
+ 1224  sudo rm -r /home/hduser/ou*
+ 1225  sudo rm -r /home/hduser/my*
+ 1226  cd input3
+ 1227  ls -a
+ 1228  rm b.txt~
+ 1229  cd ..
+ 1230  cd input
+ 1231  ls -a
+ 1232  rm a.txt~ 
+ 1233  rm b.txt~ 
+ 1234  cd ../input3
+ 1235  rm *~
+ 1236  ls -a
+ 1237  cat a.txt
+ 1238  vim a.txt
+ 1239  ls -a
+ 1240  cd airlineinput/
+ 1241  ls
+ 1242  chmod +777 1997
+ 1243  ls -l
+ 1244  cd ..
+ 1245  sudo rm -r /home/hduser/airlineoutput*
+ 1246  sudo rm -r /home/hduser/*put*
+ 1247  cd input3
+ 1248  ls
+ 1249  rm b.txt~
+ 1250  sudo rm -r /home/hduser/out*
+ 1251  sudo rm -r /home/hduser/san*
+ 1252  sudo rm -r /home/hduser/air*
+ 1253  sudo rm -r /home/hduser/bal1
+ 1254  sudo rm -r /home/hduser/san*
+ 1255  sudo rm -r /home/hduser/out*
+ 1256  sudo rm -r /home/hduser/san*
+ 1257  sudo rm -r /home/hduser/stk
+ 1258  sudo rm -r /home/hduser/stk*
+ 1259  sudo rm -r /home/hduser/san*
+ 1260  sudo rm -r /home/hduser/out*
+ 1261  sudo rm -r /home/hduser/san*
+ 1262  sudo rm -r /home/hduser/out*
+ 1263  sudo rm -r /home/hduser/stk*
+ 1264  sudo rm -r /home/hduser/out*
+ 1265  sudo rm -r /home/hduser/san*
+ 1266  sudo rm -r /home/hduser/out*
+ 1267  sudo rm -r /home/hduser/stk*
+ 1268  ls -l
+ 1269  rm b.txt~
+ 1270  sudo rm -r /home/hduser/stk*
+ 1271  sudo rm -r /home/hduser/out*
+ 1272  sudo rm -r /home/hduser/hgt*
+ 1273  sudo rm -r /home/hduser/san*
+ 1274  sudo ls -l /home/hduser/
+ 1275  sudo rm -r /home/hduser/san*
+ 1276  sudo rm -r /home/hduser/stk*
+ 1277  sudo rm -r /home/hduser/out*
+ 1278  sudo ls -l /home/hduser/
+ 1279  sudo rm -r /home/hduser/hgt*
+ 1280  sudo rm -r /home/hduser/h*
+ 1281  sudo ls -l /home/hduser/
+ 1282  sudo ls -l /home/hduser/o*
+ 1283  sudo ls -l /home/hduser/s*
+ 1284  sudo rm -r /home/hduser/s*
+ 1285  sudo rm -r /home/hduser/o*
+ 1286  sudo ls -l /home/hduser/s*
+ 1287  sudo ls -l /home/hduser/
+ 1288  sudo rm -r /home/hduser/*
+ 1289  su hduser
+ 1290  cd airlineinput/
+ 1291  chmod +777 *
+ 1292  ls -l
+ 1293  cd '/home/ruchi/Desktop/my resume'
+ 1294  clear
+ 1295  sudo rm -r /home/hduser/*7
+ 1296  sudo rm -r /home/hduser/*6
+ 1297  sudo rm -r /home/hduser/*
+ 1298  su hduser
+ 1299  cd /home/hduser/
+ 1300  ls
+ 1301  rm -r hsh7
+ 1302  sudo rm -r hsh7
+ 1303  sudo rm -r *7
+ 1304  ls
+ 1305  cd /usr/local/hadoop
+ 1306  ls
+ 1307  sudo rm prun*
+ 1308  ls
+ 1309  cd /home/hduser/
+ 1310  sudo rm -r *7
+ 1311  ls
+ 1312  cd /home/ruchi/inpput/
+ 1313  ls
+ 1314  rm b.txt~
+ 1315  sudo tar cvzf /usr/local/hadoop hadoop.tgz
+ 1316  sudo tar cvzf had.tar.gz /usr/local/hadoop/
+ 1317  chmod +777 had.tar.gz 
+ 1318  sudo chmod +777 had.tar.gz 
+ 1319  ifconfig
+ 1320  sudo /etc/hosts
+ 1321  sudo vim /etc/hosts
+ 1322  sudo tar cvzf hadoop.tgz /usr/local/hadoop
+ 1323  chmod +777 hadoop.tgz 
+ 1324  sudo chmod +777 hadoop.tgz 
+ 1325  sudo vim /etc/hosts
+ 1326  sudo rm -r /usr/local/hadoop/hadoop_tmp
+ 1327  sudo rm -r /usr/local/hadoop_lab/
+ 1328  su hduser
+ 1329  ifconfig 
+ 1330  ssh hduser@pragya-pc
+ 1331  su hduser
+ 1332  sudo rm -r /home/hduser/
+ 1333  sudo mkdir /home/hduser/
+ 1334  chmod +777 /home/hduser/
+ 1335  sudo chmod +777 /home/hduser/
+ 1336  cd '/home/ruchi/Desktop/my resume'
+ 1337  clear
+ 1338  cd /home/ruchi/Desktop
+ 1339  clear
+ 1340  sudo rm -r /home/hduser/*
+ 1341  sudo vim /etc/hosts
+ 1342  cd input3
+ 1343  pr -F *txt > newfile.txt
+ 1344  rm -r a*.txt
+ 1345  su hduser
+ 1346  sudo vim /etc/hosts
+ 1347  su hduser
+ 1348  ifconfig
+ 1349  chmod +777 -R /usr/local/hadoop
+ 1350  sudo chmod +777 -R /usr/local/hadoop
+ 1351  cd /home/hduser/
+ 1352  ssh-keygen -t -P ""
+ 1353  ssh-keygen -t rsa -P ""
+ 1354  sudo ssh-copy-id -i ~/.ssh/id_rsa.pub hduser@master
+ 1355  ssh hduser@master
+ 1356  cd input3/
+ 1357  ls
+ 1358  rm a.txt~ 
+ 1359  rm -r /home/hduser/*
+ 1360  sudo rm -r /home/hduser/*
+ 1361  su hduser
+ 1362  sudo shutdown 20
+ 1363  cd /usr/local
+ 1364  ls
+ 1365  cd hadoop
+ 1366  ls
+ 1367  sudo rm *l*.txt
+ 1368  sudo rm prun*
+ 1369  ls
+ 1370  sudo rm prun*
+ 1371  sudo rm run*
+ 1372  sudo rm b.t
+ 1373  sudo rm b.txt
+ 1374  ls
+ 1375  clear
+ 1376  javac TestClass.java 
+ 1377  java TestClass 
+ 1378  javac TestClass.java 
+ 1379  java TestClass 
+ 1380  javac TestClass.java 
+ 1381  java TestClass 
+ 1382  javac TestClass.java 
+ 1383  java TestClass 
+ 1384  javac TestClass.java 
+ 1385  java TestClass 
+ 1386  javac TestClass.java 
+ 1387  java TestClass 
+ 1388  javac TestClass.java 
+ 1389  java TestClass 
+ 1390  javac TestClass3.java 
+ 1391  java TestClass3
+ 1392  javac TestClass3.java 
+ 1393  java TestClass3
+ 1394  javac TestClass3.java 
+ 1395  java TestClass3
+ 1396  javac TestClass3.java 
+ 1397  java TestClass3
+ 1398  javac TestClass3.java 
+ 1399  java TestClass3
+ 1400  javac TestClass3.java 
+ 1401  java TestClass3
+ 1402  javac TestClass3.java 
+ 1403  java TestClass3
+ 1404  javac TestClass3.java 
+ 1405  java TestClass3
+ 1406  javac TestClass3.java 
+ 1407  java TestClass3
+ 1408  javac TestClass3.java 
+ 1409  java TestClass3
+ 1410  javac TestClass3.java 
+ 1411  java TestClass3
+ 1412  cd /home/ruchi/Desktop
+ 1413  clear
+ 1414  cd /home/ruchi/Downloads
+ 1415  clear
+ 1416  cd /home/ruchi/Desktop
+ 1417  clear
+ 1418  su hduser
+ 1419  cd /home/ruchi/Downloads
+ 1420  clear
+ 1421  cd /home/ruchi/Desktop
+ 1422  clear
+ 1423  cd /home/ruchi/Downloads
+ 1424  clear
+ 1425  cd /home/ruchi/Desktop
+ 1426  clear
+ 1427  cd /home/ruchi/Downloads
+ 1428  clear
+ 1429  cd '/media/ruchi/BAE0C5D2E0C59553/M.Tech/mtech2/seminar/sample reports/myreport'
+ 1430  clear
+ 1431  cd /home/ruchi/Desktop
+ 1432  clear
+ 1433  cd /home/ruchi/Downloads
+ 1434  clear
+ 1435  cd '/media/ruchi/BAE0C5D2E0C59553/M.Tech/mtech2/seminar/sample reports/myreport'
+ 1436  clear
+ 1437  cd /home/ruchi/Desktop
+ 1438  clear
+ 1439  cd /home/ruchi/Downloads
+ 1440  clear
+ 1441  cd /home/ruchi/Desktop
+ 1442  clear
+ 1443  cd workspace/
+ 1444  git init
+ 1445  git add *
+ 1446  git commit 
+ 1447  youtube-dl https://www.youtube.com/watch?v=C3vcBz5hHPM
+ 1448  cd workspace/
+ 1449  git remote add origin git@github.com:ruchij/MTP.git
+ 1450  git push -u origin master
+ 1451  git remote -v
+ 1452  git push origin master
+ 1453  git remote add origin git@github.com:ruchij/MTP.git
+ 1454  git remote -v
+ 1455  git push origin master
+ 1456  youtube-dl https://www.youtube.com/watch?v=_aRBtCTY9ik
+ 1457  youtube-dl https://www.youtube.com/watch?v=I8bvufvJpe4
+ 1458  su hduser
+ 1459  cd /home/ruchi/Downloads
+ 1460  clear
+ 1461  cd /home/ruchi/Desktop
+ 1462  clear
+ 1463  cd /home/ruchi/Downloads
+ 1464  clear
+ 1465  cd /home/ruchi/Desktop
+ 1466  clear
+ 1467  cd /home/ruchi/Downloads
+ 1468  clear
+ 1469  cd '/home/ruchi/Desktop/MTP reports'
+ 1470  clear
+ 1471  cd /home/hduser/
+ 1472  ls
+ 1473  sudo rm -r *
+ 1474  ls
+ 1475  sudo rm -r *
+ 1476  sudo vim /etc/hosts
+ 1477  ssh hduser@master
+ 1478  sudo vim /etc/hosts
+ 1479  cd workspace/
+ 1480  git add *
+ 1481  git commit
+ 1482  su hduser
+ 1483  javac nthUgly.java 
+ 1484  java nthUgly 
+ 1485  cd workspace/
+ 1486  git add *
+ 1487  git commit
+ 1488  ifconfig
+ 1489  sudo vim /etc/hosts
+ 1490  su hduser
+ 1491  chmod +777 airlineinput/*
+ 1492  sudo chmod +777 airlineinput/*
+ 1493  cd  airlineinput/*
+ 1494  cd  airlineinput
+ 1495  ls -l
+ 1496  cd workspace/
+ 1497  git add MST1/src/*
+ 1498  git commit
+ 1499  cd '/home/ruchi/Desktop/MTP reports'
+ 1500  clear
+ 1501  javac ShortestDistance.java 
+ 1502  java ShortestDistance
+ 1503  javac ShortestDistance.java 
+ 1504  java ShortestDistance
+ 1505  javac ShortestDistance.java 
+ 1506  java ShortestDistance
+ 1507  javac ShortestDistance.java 
+ 1508  java ShortestDistance
+ 1509  javac ShortestDistance.java 
+ 1510  java ShortestDistance
+ 1511  javac ShortestDistance.java 
+ 1512  java ShortestDistance
+ 1513  javac ShortestDistance.java 
+ 1514  java ShortestDistance
+ 1515  javac ShortestDistance.java 
+ 1516  java ShortestDistance
+ 1517  javac ShortestDistance.java 
+ 1518  java ShortestDistance
+ 1519  javac ShortestDistance.java 
+ 1520  java ShortestDistance
+ 1521  javac ShortestDistance.java 
+ 1522  java ShortestDistance
+ 1523  javac ShortestDistance.java 
+ 1524  java ShortestDistance
+ 1525  javac ShortestDistance.java 
+ 1526  java ShortestDistance
+ 1527  javac ShortestDistance.java 
+ 1528  java ShortestDistance
+ 1529  javac ShortestDistance.java 
+ 1530  java ShortestDistance
+ 1531  javac ShortestDistance.java 
+ 1532  java ShortestDistance
+ 1533  javac ShortestDistance.java 
+ 1534  java ShortestDistance
+ 1535  javac ShortestDistance.java 
+ 1536  java ShortestDistance
+ 1537  javac ShortestDistance.java 
+ 1538  java ShortestDistance
+ 1539  javac ShortestDistance.java 
+ 1540  java ShortestDistance
+ 1541  cookie
+ 1542  mcookie
+ 1543  mcookie -a
+ 1544  cd '/home/ruchi/Desktop/MTP reports'
+ 1545  clear
+ 1546  su hduser
+ 1547  cd graph/
+ 1548  ls
+ 1549  cd /home/hduser/
+ 1550  ls
+ 1551  cd ../ruchi/workspace/
+ 1552  git add *
+ 1553  git commit
+ 1554  javac DiffAstro.java 
+ 1555  java DiffAstro 
+ 1556  javac DiffAstro.java 
+ 1557  java DiffAstro 
+ 1558  javac DiffAstro.java 
+ 1559  java DiffAstro 
+ 1560  javac DiffAstro.java 
+ 1561  java DiffAstro 
+ 1562  javac DiffAstro.java 
+ 1563  java DiffAstro 
+ 1564  javac DiffAstro.java 
+ 1565  java DiffAstro 
+ 1566  javac DiffAstro.java 
+ 1567  java DiffAstro 
+ 1568  javac DiffAstro.java 
+ 1569  java DiffAstro 
+ 1570  youtube-dl https://www.youtube.com/watch?v=5iTci9dBRjA
+ 1571  youtube-dl https://www.youtube.com/watch?v=i6VhKK4R4zw
+ 1572  sudo gedit /etc/hosts
+ 1573  cd graph
+ 1574  ls
+ 1575  sudo rm DiffAstro.java~ 
+ 1576  sudo rm graph1.txt~ 
+ 1577  sudo rm graph.txt~
+ 1578  ls
+ 1579  cd /home/hduser/
+ 1580  rm -r *
+ 1581  sudo rm -r *
+ 1582  ls
+ 1583  ifconfig
+ 1584  ssh hduser@master
+ 1585  su hduser
+ 1586  javac findSmallestVectorProduct.java 
+ 1587  java findSmallestVectorProduct
+ 1588  java findSmallestVectorProduct <A-small-practice.in 
+ 1589  java findSmallestVectorProduct <A-large-practice.in 
+ 1590  javac findSmallestVectorProduct.java 
+ 1591  java findSmallestVectorProduct <A-large-practice.in 
+ 1592  javac findSmallestVectorProduct.java 
+ 1593  java findSmallestVectorProduct <A-large-practice.in 
+ 1594  java findSmallestVectorProduct <A-large-practice.in >A-large-output
+ 1595  java findSmallestVectorProduct <A-small-practice.in >A-small-output
+ 1596  java findSmallestVectorProduct <A-large-practice.in >A-large-output
+ 1597  javac gNumber.java 
+ 1598  java gNumber 
+ 1599  javac gNumber.java 
+ 1600  java gNumber 
+ 1601  javac gNumber.java 
+ 1602  java gNumber 
+ 1603  javac gNumber.java 
+ 1604  java gNumber 
+ 1605  javac gNumber.java 
+ 1606  java gNumber 
+ 1607  javac gNumber.java 
+ 1608  java gNumber 
+ 1609  diff sub-1.out C-small-outout 
+ 1610  java gNumber < C-small-attempt1.in >C-small-outout0
+ 1611  javac gNumber.java 
+ 1612  java gNumber< C-small-attempt2.in >C-small-output2
+ 1613  diff sub-3.out C-small-outout2 
+ 1614  diff sub-3.out C-small-output
+ 1615  diff sub-3.out C-small-output2
+ 1616  javac gNumber.java 
+ 1617  java gNumber
+ 1618  javac gNumber.java 
+ 1619  java gNumber
+ 1620  java gNumber< C-small-attempt3.in >C-small=output3
+ 1621  java gNumber
+ 1622  javac gNumber.java 
+ 1623  java gNumber< C-small-attempt4.in >C-small=output4
+ 1624  java gNumber
+ 1625  java gNumber< C-small-attempt5.in >C-small-output5
+ 1626  sudo vim/etc/hosts
+ 1627  sudo vim /etc/hosts
+ 1628  su hduser
+ 1629  sudo rm -r /home/hduser/*
+ 1630  ls /home/hduser/*
+ 1631  ls /home/hduser/
+ 1632  ls /home/hduser
+ 1633  sudo rm -r /home/hduser/*
+ 1634  cd graph
+ 1635  ls
+ 1636  ls -a
+ 1637  cd ..
+ 1638  sudo rm -r /home/hduser/*
+ 1639  su hduser
+ 1640  cd graph/
+ 1641  ls -al
+ 1642  rm -r graph.txt~
+ 1643  ls -al
+ 1644  su hduser
+ 1645  sudo rm -r /home/hduser/*
+ 1646  cd graph
+ 1647  ls
+ 1648  ls -al
+ 1649  cd ..
+ 1650  sudo rm -r /home/hduser/*
+ 1651  cd graph
+ 1652  ls -al
+ 1653  rm -r graph.txt~
+ 1654  sudo rm -r /home/hduser/*
+ 1655  cd ../workspace/
+ 1656  git add *
+ 1657  git commit
+ 1658  git remote add origin git@github.com:ruchij/MTP_codes.git
+ 1659  git remote add origin1 git@github.com:ruchij/MTP_codes.git
+ 1660  git push -u origin1 master
+ 1661  git add MridulMST2/src/CompReducer.java 
+ 1662  git commit
+ 1663  who
+ 1664  sudo apt-get rekt
+ 1665  sudo apt-get install rekt
+ 1666  youtube-dl https://www.youtube.com/watch?v=We54wQfHN3c
+ 1667  youtube-dl https://www.youtube.com/watch?v=VnXOBOSlSQ8
+ 1668  javac ConnectedComponents.java 
+ 1669  java ConnectedComponents 
+ 1670  javac ConnectedComponents.java 
+ 1671  java ConnectedComponents 
+ 1672  javac ConnectedComponents.java 
+ 1673  java ConnectedComponents 
+ 1674  javac ConnectedComponents.java 
+ 1675  java ConnectedComponents 
+ 1676  javac ConnectedComponents.java 
+ 1677  java ConnectedComponents 
+ 1678  javac ConnectedComponents.java 
+ 1679  java ConnectedComponents 
+ 1680  javac ConnectedComponents.java 
+ 1681  java ConnectedComponents 
+ 1682  javac ConnectedComponents.java 
+ 1683  java ConnectedComponents 
+ 1684  javac ConnectedComponents.java 
+ 1685  java ConnectedComponents 
+ 1686  javac ConnectedComponents.java 
+ 1687  java ConnectedComponents 
+ 1688  javac ConnectedComponents.java 
+ 1689  java ConnectedComponents 
+ 1690  javac ConnectedComponents.java 
+ 1691  java ConnectedComponents 
+ 1692  javac ConnectedComponents.java 
+ 1693  java ConnectedComponents 
+ 1694  javac ConnectedComponents.java 
+ 1695  java ConnectedComponents 
+ 1696  javac StrongConnectedComponents.java 
+ 1697  java StrongConnectedComponents 
+ 1698  javac StrongConnectedComponents.java 
+ 1699  java StrongConnectedComponents 
+ 1700  javac StrongConnectedComponents.java 
+ 1701  java StrongConnectedComponents 
+ 1702  javac StrongConnectedComponents.java 
+ 1703  java StrongConnectedComponents 
+ 1704  youtube-dl https://www.youtube.com/watch?v=rwZXM5CJ5is
+ 1705  javac ConnectedComponents.java 
+ 1706  java ConnectedComponents 
+ 1707  javac ConnectedComponents.java 
+ 1708  java ConnectedComponents 
+ 1709  javac CC.java
+ 1710  javac CC
+ 1711  java CC
+ 1712  javac CC
+ 1713  javac CC.java
+ 1714  java CC
+ 1715  javac CC.java
+ 1716  java CC
+ 1717  javac CC.java
+ 1718  java CC
+ 1719  javac CC.java
+ 1720  java CC
+ 1721  javac CC.java
+ 1722  java CC
+ 1723  javac CC.java
+ 1724  java CC
+ 1725  javac CC.java
+ 1726  java CC
+ 1727  javac CC.java
+ 1728  java CC
+ 1729  javac CC.java
+ 1730  java CC
+ 1731  javac CC.java
+ 1732  java CC
+ 1733  javac CC.java
+ 1734  java CC
+ 1735  javac CC.java
+ 1736  java CC
+ 1737  javac CC.java
+ 1738  java CC
+ 1739  javac CC.java
+ 1740  java CC
+ 1741  javac CC.java
+ 1742  java CC
+ 1743  javac CC.java
+ 1744  java CC
+ 1745  cd workspace/
+ 1746  git add *
+ 1747  git commit
+ 1748  git add *
+ 1749  git commit
+ 1750  cd /media/ruchi/BAE0C5D2E0C59553/M.Tech/MTP/MyReport
+ 1751  clear
+ 1752  su hduser
+ 1753  sudo rm -r /home/hduser/*
+ 1754  sudo chmod graph/*
+ 1755  sudo chmod +777 graph/*
+ 1756  sudo rm -r /home/hduser/*
+ 1757  cd MridulMST2/
+ 1758  ls -al
+ 1759  sudo rm -r .gitignore 
+ 1760  ls -al
+ 1761  git init
+ 1762  git add *
+ 1763  git commit
+ 1764  git remote add origin https://github.com/ruchij/MTP
+ 1765  git push -u origin master
+ 1766  ac CC.java
+ 1767  java CC
+ 1768  javac CC.java
+ 1769  java CC
+ 1770  cd workspace/
+ 1771  git add *
+ 1772  git commit
+ 1773  git add *
+ 1774  git commit
+ 1775  cd /media/ruchi/BAE0C5D2E0C59553/M.Tech/MTP/MyReport
+ 1776  clear
+ 1777  su hduser
+ 1778  cd graph
+ 1779  ls -al
+ 1780  rm graph1.txt~ 
+ 1781  rm graph.txt~ 
+ 1782  ls -al
+ 1783  cd ..
+ 1784  cd workspace
+ 1785  git add *
+ 1786  git commit
+ 1787  sudo rm -r /home/hduser/*
+ 1788  cd graph/
+ 1789  ls -al
+ 1790  rm graph.txt~
+ 1791  cd ..
+ 1792  cd  workspace/
+ 1793  git remove origin
+ 1794  git --help
+ 1795  git add *
+ 1796  git commit 
+ 1797  sudo rm -r /home/hduser/*
+ 1798  su hduser
+ 1799  sudo rm -r /home/hduser/*
+ 1800  sudo rm -r /home/hduser/*
+ 1801  su hduser
+ 1802  sudo shutdown 65
+ 1803  cd Big\ data/
+ 1804  cd cweb3.4e/
+ 1805  make
+ 1806  cd '/home/ruchi/Desktop/MTP reports'
+ 1807  clear
+ 1808  javac BetterOf2or3.java 
+ 1809  java BetterOf2or3 
+ 1810  javac BetterOf2or3.java 
+ 1811  java BetterOf2or3 
+ 1812  javac BetterOf2or3.java 
+ 1813  java BetterOf2or3 
+ 1814  javac BetterOf2or3.java 
+ 1815  java BetterOf2or3 
+ 1816  javac BetterOf2or3.java 
+ 1817  java BetterOf2or3 
+ 1818  javac BetterOf2or3.java 
+ 1819  java BetterOf2or3 
+ 1820  javac BetterOf2or3.java 
+ 1821  java BetterOf2or3 
+ 1822  javac BetterOf2or3.java 
+ 1823  java BetterOf2or3 
+ 1824  cd '/home/ruchi/Desktop/MTP reports'
+ 1825  clear
+ 1826  javac GroupsOfBatch.java 
+ 1827  java GroupsOfBatch
+ 1828  javac GroupsOfBatch.java 
+ 1829  java GroupsOfBatch
+ 1830  javac GroupsOfBatch.java 
+ 1831  java GroupsOfBatch
+ 1832  javac GroupsOfBatch.java 
+ 1833  java GroupsOfBatch
+ 1834  javac GroupsOfBatch.java 
+ 1835  java GroupsOfBatch
+ 1836  javac GroupsOfBatch.java 
+ 1837  java GroupsOfBatch
+ 1838  javac GroupsOfBatch.java 
+ 1839  java GroupsOfBatch
+ 1840  javac GroupsOfBatch.java 
+ 1841  java GroupsOfBatch
+ 1842  javac GroupsOfBatch.java 
+ 1843  java GroupsOfBatch
+ 1844  javac GroupsOfBatch.java 
+ 1845  java GroupsOfBatch
+ 1846  java -jar ResumeGenerator.jar "" "" "Computer Science and Engineering" "M.Tech." "IIT Bombay" "Female" "Computer Science and Engineering" "" "Post Graduation;IIT Bombay;IIT Bombay;2016;6.78" "Graduation;RGPV Bhopal;SGSITS Indore;2014;8.16" "Intermediate/+2;MPBSE Bhopal;Govt. Mult H S School,Betul ;2009;89.6" "Matriculation;MPBSE Bhopal;Govt. Mult H S School,Betul;2007;86"
+ 1847  cd /home/ruchi/Downloads/thesis_template_iitb
+ 1848  clear
+ 1849  cd /home/ruchi/Downloads/thesis_template_iitb
+ 1850  clear
+ 1851  cd /home/ruchi/Downloads/thesis_template_iitb
+ 1852  clear
+ 1853  cd /home/ruchi/Desktop/MyReport
+ 1854  clear
+ 1855  cd /home/ruchi/Downloads/thesis_template_iitb
+ 1856  clear
+ 1857  cd /home/ruchi/Desktop/MyReport
+ 1858  clear
+ 1859  cd /home/ruchi/Downloads/thesis_template_iitb
+ 1860  clear
+ 1861  cd /home/ruchi/Desktop/MyReport
+ 1862  clear
+ 1863  javac Matching2.java 
+ 1864  java Matching2 
+ 1865  javac Matching.java 
+ 1866  java Matching2 
+ 1867  javac Matching.java 
+ 1868  java Matching
+ 1869  cd /home/ruchi/Desktop/pragya/report
+ 1870  clear
+ 1871  youtube-dl https://www.youtube.com/watch?v=ARDIIvXDJvo
+ 1872  cd workspace/
+ 1873  git add *
+ 1874  git commit
+ 1875  git add *
+ 1876  cd workspace/
+ 1877  git add 
+ 1878  git add *
+ 1879  cd workspace/
+ 1880  git add *
+ 1881  git commit
+ 1882  cd ..
+ 1883  youtube-dl https://www.youtube.com/watch?v=btPJPFnesV4
+ 1884  cd /home/ruchi/Desktop/pragya/report
+ 1885  clear
+ 1886  cd /home/ruchi/Desktop/MyReport
+ 1887  clear
+ 1888  cd /usr/local/hadoop
+ 1889  ./sbin/start-all.sh
+ 1890  su hduser
+ 1891  sudo rm -r /home/hduser/*
+ 1892  cd graph
+ 1893  ls
+ 1894  ls -al
+ 1895  sudo rm -r graph1.txt~
+ 1896  ls -al
+ 1897  cd workspace/
+ 1898  git add *
+ 1899  git commit
+ 1900  cd MridulMRC/
+ 1901  git init
+ 1902  git add .
+ 1903  git commit -m "CC calculated as smallest vertex"
+ 1904  git add origin https://github.com/abhir27/MridulMRC.git
+ 1905  git remote  add origin https://github.com/abhir27/MridulMRC.git
+ 1906  git remote -v
+ 1907  git push origin master
+ 1908  clear
+ 1909  git remote -v
+ 1910  git push origin master
+ 1911  git remote  add origin https://github.com/abhir27/
+ 1912  git init
+ 1913  git add *
+ 1914  git add .
+ 1915  git commit -m "First commit"
+ 1916  git add .
+ 1917  git commit -m "First commit"
+ 1918  git remote  add origin https://github.com/abhir27/
+ 1919  cd MridulMRC/
+ 1920  git init
+ 1921  ls -al
+ 1922  sudo rm -r .git*
+ 1923  ls -al
+ 1924  git init
+ 1925  git add .
+ 1926  git commit -m "CC calculated"
+ 1927  it config --global user.name "abhir27"
+ 1928  git config --global user.name "abhir27"
+ 1929  git config --global user.email "ruchij@iitb.ac.in"
+ 1930  git remote add origin https://github.com/abhir27/MridulMRC.git
+ 1931  git remote -v
+ 1932  git push origin master
+ 1933  cd /home/ruchi/Desktop/pragya/report
+ 1934  clear
+ 1935  cd /home/ruchi/Desktop/MyReport
+ 1936  clear
+ 1937  sudo rm -r /home/hduser/*
+ 1938  su hduser
+ 1939  cd graph
+ 1940  ls -al
+ 1941  cd /home/ruchi/Desktop/MyReport
+ 1942  clear
+ 1943  cd /home/ruchi/Downloads
+ 1944  clear
+ 1945  su hduser
+ 1946  sudo rm -r /home/hduser/*
+ 1947  cd /home/ruchi/Desktop/MyReport
+ 1948  clear
+ 1949  cd MridulMRC/
+ 1950  git push origin master
+ 1951  git add .
+ 1952  git commit 
+ 1953  git push origin master
+ 1954  cd /home/ruchi/Desktop/MyReport
+ 1955  clear
+ 1956  su hduser
+ 1957  sudo rm -r /home/hduser/*
+ 1958  cd MridulMRC/
+ 1959  git add *
+ 1960  git add .
+ 1961  git commit
+ 1962  git push origin master
+ 1963  cd /home/ruchi/Desktop/MyReport
+ 1964  clear
+ 1965  su hduser
+ 1966  cd MridulMRC/
+ 1967  git add .
+ 1968  git commit
+ 1969  git push origin master
+ 1970  su hduser
+ 1971  cd /home/ruchi/Desktop/MyReport
+ 1972  clear
+ 1973  cd /home/ruchi/Desktop/MyReport
+ 1974  clear
+ 1975  cd /home/ruchi/Desktop/MyReport
+ 1976  clear
+ 1977  cd /home/ruchi/Desktop/pragya/summary_matching_1
+ 1978  clear
+ 1979  cd /home/ruchi/Desktop/MyReport
+ 1980  clear
+ 1981  cd '/home/ruchi/Desktop/MTP reports'
+ 1982  clear
+ 1983  cd /home/ruchi/Desktop/MyReport
+ 1984  clear
+ 1985  cd '/home/ruchi/Desktop/MTP reports'
+ 1986  clear
+ 1987  cd /home/ruchi/Desktop/MyReport
+ 1988  clear
+ 1989  cd '/home/ruchi/Desktop/MTP reports'
+ 1990  clear
+ 1991  cd /home/ruchi/Desktop/pragya/summary_matching_1
+ 1992  clear
+ 1993  cd /home/ruchi/Desktop/MyReport
+ 1994  clear
+ 1995  cd MridulMRC/
+ 1996  git add .
+ 1997  git commit -m "Divided Range calculation for memory constraints"
+ 1998  git push origin master
+ 1999  git add .
+ 2000  cd ..
+ 2001  cd workspace/MridulMRC/
+ 2002  ls -al
+ 2003  sudo rm -r .git
+ 2004  sudo rm -r .gitignore 
+ 2005  git init
+ 2006  git add .
+ 2007  git commit -m "Divided range calculation for memory constraints"
+ 2008  git remote add origin https://github.com/abhir27/MridulMRC.git
+ 2009  git remote -v
+ 2010  git push origin master
+ 2011  ls -al
+ 2012  history>history
