@@ -1,4 +1,5 @@
 import java.util.Date;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
@@ -34,7 +35,7 @@ public class MridulMRC extends Configured implements Tool{
      
        long start,end;
        //In this job we are are duplicating edges
-       //If we given with edge u,v,w as start of edge,end of edge,weight we add a duplicate edge v,u,w
+       //If we given with edge u,v,w as //start of edge,end of edge,weight we add a duplicate edge v,u,w
         Job job = Job.getInstance(conf);
         start = new Date().getTime();
         job.setOutputKeyClass(IntWritable.class);
@@ -49,7 +50,7 @@ public class MridulMRC extends Configured implements Tool{
         job.waitForCompletion(true);
         
         Job joba = Job.getInstance(conf);
-        // start = new Date().getTime();
+        // //start = new Date().getTime();
          joba.setOutputKeyClass(IntWritable.class);
          joba.setOutputValueClass(Text.class);
          joba.setMapperClass(Edge1Mapper.class);
@@ -62,7 +63,7 @@ public class MridulMRC extends Configured implements Tool{
          joba.waitForCompletion(true);
         
         Job jobb = Job.getInstance(conf);
-       // start = new Date().getTime();
+       // //start = new Date().getTime();
         jobb.setOutputKeyClass(IntWritable.class);
         jobb.setOutputValueClass(Text.class);
         jobb.setMapperClass(Edge2Mapper.class);
@@ -74,15 +75,12 @@ public class MridulMRC extends Configured implements Tool{
         jobb.setJarByClass(MridulMRC.class);
         jobb.waitForCompletion(true);
         
-        end = new Date().getTime();
-        System.out.println("EdgeMapper Job took "+(end-start) + "milliseconds");
-        
         //In this job we are converting out input data into a desired format of:
         // u,v,wt,min,max,u,v
         String input=args[2]+loopid;
         String pathprefix=args[2];
         Job job1 = Job.getInstance(conf);
-        start = new Date().getTime();
+        ////start = new Date().getTime();
         job1.setOutputKeyClass(IntWritable.class);
         job1.setOutputValueClass(Text.class);
         job1.setMapperClass(EdgeMapper2.class);
@@ -92,8 +90,6 @@ public class MridulMRC extends Configured implements Tool{
         FileOutputFormat.setOutputPath(job1, new Path(input));
         job1.setJarByClass(MridulMRC.class);
         job1.waitForCompletion(true);
-        end = new Date().getTime();
-        System.out.println("EdgeMapper2 Job took "+(end-start) + "milliseconds");
         
         v=EdgeReducer.vertices;
         //System.out.println("v:"+v);
@@ -117,7 +113,7 @@ public class MridulMRC extends Configured implements Tool{
         	//Edges with status==1 are unmarked edges.
         	//P.S. this status is different from variable status.
             job2 = Job.getInstance(conf);
-            start = new Date().getTime();
+            ////start = new Date().getTime();
             job2.setOutputKeyClass(IntWritable.class);
             job2.setOutputValueClass(Text.class);
             job2.setMapperClass(MatchMapper.class);
@@ -127,13 +123,11 @@ public class MridulMRC extends Configured implements Tool{
             FileOutputFormat.setOutputPath(job2, new Path(input+"o1"));
             job2.setJarByClass(MridulMRC.class);
             job2.waitForCompletion(true);
-           end = new Date().getTime();
-            System.out.println("MatchMapper Job took "+(end-start) + "milliseconds");
             
             //Here we are separating matched edges to do further computation 
             //To find connected components we use matched edges only.
             job21 = Job.getInstance(conf);
-            start = new Date().getTime();
+           // //start = new Date().getTime();
             job21.setOutputKeyClass(IntWritable.class);
             job21.setOutputValueClass(Text.class);
             job21.setMapperClass(CompMapper.class);
@@ -143,10 +137,8 @@ public class MridulMRC extends Configured implements Tool{
             FileOutputFormat.setOutputPath(job21, new Path(input+"o2"));
             job21.setJarByClass(MridulMRC.class);
             job21.waitForCompletion(true);
-            end = new Date().getTime();
-            System.out.println("Seperator Job took "+(end-start) + "milliseconds");
            
-            //cc routine start
+            //cc routine //start
             //Now we are taking 2 subsidiary reducers for doing Connected Components computation 
             //So we are submitting 2 jobs instead of waiting for completion so that these subsidiary
             //reducers can work in parallel. 
@@ -156,7 +148,7 @@ public class MridulMRC extends Configured implements Tool{
             //Next 2 jobs job21a and job21b find min vertex connected with each vertex.
             String ccinput=input+"o1";
             job21a = Job.getInstance(conf);
-            start = new Date().getTime();
+            long start1 = new Date().getTime();
             job21a.setOutputKeyClass(IntWritable.class);
             job21a.setOutputValueClass(Text.class);
             job21a.setMapperClass(Comp1Mapper.class);
@@ -169,7 +161,7 @@ public class MridulMRC extends Configured implements Tool{
             job21a.submit();
             
             job21b = Job.getInstance(conf);
-            start = new Date().getTime();
+            ////start = new Date().getTime();
             job21b.setOutputKeyClass(IntWritable.class);
             job21b.setOutputValueClass(Text.class);
             job21b.setMapperClass(Comp2Mapper.class);
@@ -185,7 +177,8 @@ public class MridulMRC extends Configured implements Tool{
             {
             	Thread.sleep(100);
             }
-
+            long end1 = new Date().getTime();
+            System.out.println("Total time "+(end1-start1) + "milliseconds");
             int olid=lid;
             boolean ccstat=false;
             while(!ccstat)
@@ -270,7 +263,7 @@ public class MridulMRC extends Configured implements Tool{
             job212.submit();
             
             job212b = Job.getInstance(conf);
-            start = new Date().getTime();
+            //start = new Date().getTime();
             job212b.setOutputKeyClass(IntWritable.class);
             job212b.setOutputValueClass(Text.class);
             job212b.setMapperClass(ParentMapper.class);
@@ -290,7 +283,7 @@ public class MridulMRC extends Configured implements Tool{
             //we are finding parent using normal pointer jumping
             //P(u)=P(P(u))
             job213a = Job.getInstance(conf);
-            start = new Date().getTime();
+            ////start = new Date().getTime();
             job213a.setOutputKeyClass(IntWritable.class);
             job213a.setOutputValueClass(Text.class);
             job213a.setMapperClass(TreeParent1Mapper.class);
@@ -333,7 +326,7 @@ public class MridulMRC extends Configured implements Tool{
             //In this job we are changing u and v of edge with its connected component id 
             //Also we drop cases when both u and v are in same component.
             job22 = Job.getInstance(conf);
-            start = new Date().getTime();
+            ////start = new Date().getTime();
             job22.setOutputKeyClass(IntWritable.class);
             job22.setOutputValueClass(Text.class);
             job22.setMapperClass(ChangeToCIdMapper.class);
@@ -343,12 +336,10 @@ public class MridulMRC extends Configured implements Tool{
             FileOutputFormat.setOutputPath(job22, new Path(input+"o3"));
             job22.setJarByClass(MridulMRC.class);
             job22.waitForCompletion(true);
-            end = new Date().getTime();
-            System.out.println("Conversion_to_cid Job took "+(end-start) + "milliseconds");
              
             //In this we are finding min and max values for unmatched edges
              job4 = Job.getInstance(conf);
-             start = new Date().getTime();
+            // //start = new Date().getTime();
              job4.setOutputKeyClass(IntWritable.class);
              job4.setOutputValueClass(Text.class);
              job4.setMapperClass(OneMapper.class);
@@ -359,14 +350,12 @@ public class MridulMRC extends Configured implements Tool{
              FileOutputFormat.setOutputPath(job4, new Path(input+"o5"));
              job4.setJarByClass(MridulMRC.class);
              job4.waitForCompletion(true); 	
-             end = new Date().getTime();
-             System.out.println("Job to Calculate new min-max for cid  took "+(end-start) + "milliseconds");
              loopid++;
              String input2=args[2]+loopid;
              
              //here we are changing min and max value from old input to newer min and max value found in previous step
              job5 = Job.getInstance(conf);
-             start = new Date().getTime();
+             ////start = new Date().getTime();
              job5.setOutputKeyClass(IntWritable.class);
              job5.setOutputValueClass(Text.class);
              job5.setMapperClass(NEdgeMapper.class);
@@ -376,16 +365,13 @@ public class MridulMRC extends Configured implements Tool{
              FileOutputFormat.setOutputPath(job5, new Path(input2));
              job5.setJarByClass(MridulMRC.class);
              job5.waitForCompletion(true); 
-             end = new Date().getTime();
-             System.out.println("New min-max value integration Job took "+(end-start) + "milliseconds");
-             
              input=args[2]+loopid;
 
         }
         //here we are removing duplicate edges from our output formed by joining matched edges from all passes.
         //Then we output these edgespublic static int[][] ver=new int[2*e][2];
         Job job6 = Job.getInstance(conf);
-        start = new Date().getTime();
+       // //start = new Date().getTime();
         job6.setOutputKeyClass(Text.class);
         job6.setOutputValueClass(Text.class);
         job6.setMapperClass(OutputMapper.class);
@@ -401,7 +387,7 @@ public class MridulMRC extends Configured implements Tool{
         job6.waitForCompletion(true); 
         
         end = new Date().getTime();
-        System.out.println("Duplicate Removal and Output Generation Job took "+(end-start) + "milliseconds");
+        System.out.println("Total Time "+(end-start) + "milliseconds");
         return 0;
         
     }
