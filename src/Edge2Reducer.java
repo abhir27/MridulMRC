@@ -10,14 +10,14 @@ import org.apache.hadoop.mapreduce.Reducer;
 public class Edge2Reducer extends Reducer< IntWritable, Text, IntWritable, Text> {
 	public static int v=EdgeReducer.vertices;
 	public static int l=(int)Math.floor(v/2);
-	public static int[][] ver=new int[v-(int)Math.floor(v/2)][2];
+	public static double[][] ver=new double[v-(int)Math.floor(v/2)][2];
 	public void reduce(IntWritable key, Iterable<Text> values, Context output)
             throws IOException, InterruptedException {
-    	int min=999;int max=0;
+    	double min=999;double max=0;
    for(Text value:values)
  {
 	String s[]=value.toString().split("\t");
-	int n=Integer.parseInt(s[1]);
+	double n=Double.parseDouble(s[1]);
 	if(min>n)min=n;
 	if(max<n)max=n;
 	ver[key.get()-l-1][0]=min;

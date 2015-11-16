@@ -12,12 +12,15 @@ import org.apache.hadoop.mapreduce.Mapper;
 //Also we are keeping count of edges in variable edges.
 public class EdgeMapper extends Mapper<LongWritable, Text, IntWritable, Text> {
 	public static int edges=1;
+	//public static final float epsilon=0.25f;
     @Override
     public void map(LongWritable key, Text value, Context output) throws IOException,
             InterruptedException {
     	String[] val=value.toString().split(",");
-    	 	output.write(new IntWritable(Integer.parseInt(val[1])),new Text(val[0]+"\t"+val[2]));
-    		output.write(new IntWritable(Integer.parseInt(val[0])),new Text(val[1]+"\t"+val[2]));
+   double prob= Math.round(Math.random());
+   double wt=Integer.parseInt(val[2])+prob;
+    	 	output.write(new IntWritable(Integer.parseInt(val[1])),new Text(val[0]+"\t"+wt));
+    		output.write(new IntWritable(Integer.parseInt(val[0])),new Text(val[1]+"\t"+wt));
     	   	edges++;
           }
 }

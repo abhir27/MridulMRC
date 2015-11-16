@@ -24,7 +24,7 @@ public static int l=(int)Math.floor(MridulMRC.v/2);
 				output.write(new IntWritable(Integer.parseInt(s[0])), new Text(Comp2Reducer.P[Integer.parseInt(s[1])-l-1]
 						+"\t"+Comp2Reducer.P[Integer.parseInt(s[2])-l-1]+"\t"+s[3]+"\t"+s[4]+"\t"+s[5]+"\t"+s[6]+"\t"+s[7]));
 			}
-			else if(Integer.parseInt(s[1])<l && Integer.parseInt(s[2])>l){
+			else if(Integer.parseInt(s[1])<=l && Integer.parseInt(s[2])>l){
 				output.write(new IntWritable(Integer.parseInt(s[0])), new Text(Comp1Reducer.P[Integer.parseInt(s[1])-1]
 						+"\t"+Comp2Reducer.P[Integer.parseInt(s[2])-l-1]+"\t"+s[3]+"\t"+s[4]+"\t"+s[5]+"\t"+s[6]+"\t"+s[7]));
 			}
